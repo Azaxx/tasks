@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    background: black;
+    display: flex;
+}
+
+.header__logo {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 57px;
+    margin-left: 181px;
+    font-size: 24px;
+    width: 165;
+    height: 19;
+    font-weight: 800;
+}
+
+nav {
+    margin-top: 57px;
+    margin-left: 441px;
+}
+
+.topnav {
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #fcac45;
+}
+
+.ttopnav {
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main_welcome {
+    background: black;
+    text-align: center;
+    padding: 100px 0 220px 0;
+}
+
+.main_welcome h1 {
+    color: #909090;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.main_welcome p {
+    color: #c2c2c2;
+    font-size: 20px;
+    margin-top: -320px;
+    font-weight: 900;
+}
+
+.mycompany {
+    color: #fcac45;
+
+}
+
+.wrapper {
+    width: 76%;
+    margin: 0 auto;
+}
+
+.abaut_left img {
+    opacity: 100%;
+    width: 506px;
+    height: 295;
+}
+
+main .main_abaut {
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.abaut_right {
+    margin-left: 175px;
+}
+
+.abaut_right h1 {
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+}
+
+.abaut_right p {
+    margin-top: 34px;
+    margin-bottom: 20px;
+    color: #6c6c6c;
+}
+
+.abaut_right li {
+    background: url(image/1.png) 0px no-repeat;
+    padding-left: 20px;
+    margin-top: 10px;
+
+}
+
+.mv-100 {
+    min-width: 100%;
+}
+
+.main_team {
+    background: black;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+
+.main_team h1 {
+    color: white;
+    font-size: 44px;
+    padding-bottom: 20px;
+}
+
+.line {
+    background: #fcac45;
+    height: 3px;
+    width: 100px;
+    position: relative;
+    left: 45.5%;
+    margin-bottom: 105px;
+}
+
+.photo1 {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.team_cards {
+    display: flex;
+
+
+}
+
+.position {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.abaut__position {
+    font-size: 15px;
+}
+
+.main__services {
+    text-align: center;
+    padding: 100px 0 165px 0;
+}
+
+.line {
+    margin-top: 25px;
+    height: 3px;
+    margin-bottom: 50px;
+}
+
+.ipsum {
+    margin-bottom: 100px;
+    font-size: 16px;
+    color: #a2a2a2;
+}
+
+.services__cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 40px;
+    position: relative;
+    right: 5%;
+}
+
+img {
+    margin-bottom: 25px;
+    width: 250px;
+    height: 150px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+p {
+    font-size: 14px;
+    color: #474747s;
+}
+
+.main__clients {
+    background: black;
+    text-align: center;
+    padding: 96px 0 107px 0;
+}
+
+h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 1;
+}
+
+.ourClients {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.clients__cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 1px;
+
+
+}
+
+.client__card {
+    width: 20px;
+    height: 110px;
+}
+
+
+.main__testimonials {
+    background: black;
+    padding: 100px 0 170px 0;
+}
+
+.testimonials {
+    font-size: 44px;
+    position: relative;
+    left: 28%;
+
+}
+
+.this {
+    margin-top: 110px;
+    color: #e7e7e7;
+    ;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.dean {
+    color: #a6a6a6;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.ceo {
+    color: #656565;
+    font-size: 18px;
+
+
+}
